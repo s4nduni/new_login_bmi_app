@@ -38,6 +38,10 @@ dependencies:
   intl: ^0.18.1
   font_awesome_flutter: ^10.4.0
   pretty_gauge: ^1.0.1
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.8.0
+  cloud_firestore: ^4.9.0
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +70,11 @@ flutter:
     - assests/back.jfif
     - assests/man.jpg
     - assests/woman.jpg
+    - assests/login.png
+    - assests/animal.gif
+    - assests/signup.gif
+    - assests/animals.gif
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
